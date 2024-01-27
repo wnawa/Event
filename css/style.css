@@ -3395,3 +3395,6 @@ ul.pagination .active a {
   margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */
+.container-fluid{
+  padding:0;
+}
