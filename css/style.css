@@ -1435,8 +1435,9 @@ select.form-control:not([size]):not([multiple]) {
   width: 30%;
 }
 @media (max-width: 1200px) {
-  .schedule .schedule-contents .schedule-item ul li .subject {
-    /* display: none; */
+  .schedule .schedule-contents .schedule-item ul li .speaker
+  {
+    display: none;
   }
 }
 @media (max-width: 767px) {
