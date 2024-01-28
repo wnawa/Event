@@ -1,7 +1,7 @@
 <?php 
 
 // Sending contacts registration
-$receiver_email = 'email@email.com';
+$receiver_email = 'marites.magjacot@mdx-me.com';
 
 $username = $_POST['user-name'] ; 
 $user_email = $_POST['user-email'] ; 
@@ -17,7 +17,7 @@ $message = 'Regstration Details:
 $email_subject = "MDX Event - New Registration";
 $headers = "From: ";
 
-// mail($receiver_email, $email_subject, $message , $headers);
+mail($receiver_email, $email_subject, $message , $headers);
 
-header("Refresh: 0; url=thankyou.html");
+header("Refresh: 0; url=../thankyou.html");
 ?>
