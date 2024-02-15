@@ -83,6 +83,7 @@ ul.social-links li a i {
   color: #222222;
 }
 .speakerimg{
+ 
   width:250px;
   height:250px
 }
@@ -597,9 +598,17 @@ select.form-control:not([size]):not([multiple]) {
   padding: 35px 40px 35px 50px;
   /* border-right: 1px solid #e5e5e5; */
 }
+/* ipad */
 @media (max-width: 1200px) {
   .main-nav .navbar-brand {
     padding: 20px 30px;
+  }
+  .main-nav {
+    position: relative;
+  }
+  .main-nav .navbar-toggler {
+    font-size: 2.5rem;
+    line-height: 5;
   }
 }
 /* Mobile */
@@ -607,11 +616,15 @@ select.form-control:not([size]):not([multiple]) {
   .main-nav .navbar-brand {
     border-right: none;
   }
+  .main-nav .navbar-toggler {
+    font-size: 1.5rem;
+    line-height: 3;
+  }
 }
 .main-nav .navbar-toggler {
-  font-size: 1.5rem;
+  /* */
   margin-right: 15%;
-  line-height: 3;
+  /* line-height: 3; */
 }
 .main-nav .navbar-nav .nav-item {
   position: relative;
@@ -1235,6 +1248,9 @@ select.form-control:not([size]):not([multiple]) {
   .speakers .speaker-item .image img {
     width: 100% !important;
   }
+}
+.speakers .speaker-item .image img {
+  width: 100% !important;
 }
 .speakers .speaker-item .image .primary-overlay {
   position: absolute;
