@@ -82,7 +82,11 @@ ul.social-links li a i {
   font-size: 20px;
   color: #222222;
 }
+.speakerimg{
 
+  width:250px;
+  height:250px
+}
 .shadow,
 .testimonial .testimonial-item .comment:hover,
 .news-hr .news-post-hr:hover,
@@ -1178,6 +1182,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 .about .content-block .description-one {
   margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 .about .content-block .description-one p {
   color: #222222;
@@ -1185,9 +1190,11 @@ select.form-control:not([size]):not([multiple]) {
 }
 .about .content-block .description-two {
   margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
 }
 .about .content-block .description-two p ,.list-inline{
   /* font-size: 1.25rem; */
+  font-family: "Montserrat", sans-serif;
 }
 @media (max-width: 575px) {
   .about .content-block ul.list-inline .list-inline-item {
