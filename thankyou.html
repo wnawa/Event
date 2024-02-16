@@ -1,14 +1,5 @@
 <!DOCTYPE html>
-
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
-
 <html lang="en">
-
 <head>
   <!-- Basic Page Needs
   ================================================== -->
@@ -42,17 +33,42 @@
   <!-- FAVICON -->
   <link href="images/favicon.png" rel="shortcut icon" />
 
-  <!-- map  -->
-  <link rel="stylesheet" type="text/css" href="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.25.1/maps/maps.css" />
-  <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.25.1/maps/maps-web.min.js"></script>
-  <!-- <link
-      rel="stylesheet"
-      type="text/css"
-      href="../assets/ui-library/index.css"
-    /> -->
+ 
+  <style>
+    html {
+      min-height: 100%;
+      /* make sure it is at least as tall as the viewport */
+      position: relative;
+    }
+
+    body {
+      height: 100%;
+      /* force the BODY element to match the height of the HTML element */
+    }
+
+    #messege {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      overflow: hidden;
+      /* padding-top: 20%;
+      margin-top: 20%; */
+      /* z-index:-1;  */
+    }
+    footer{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index:10;
+
+    }
+  </style>
 </head>
 
-<body class="body-wrapper ">
+<body class="body-wrapper h-100">
   <!--========================================
 =            Navigation Section            =
 =========================================-->
@@ -65,9 +81,9 @@
             <img src="images/sponsors/mdx.png" alt="MDX" title="MDX" class="imgLogo" />
           </a>
         </div>
-     
+
       </div>
-    
+
     </div>
   </nav>
 
@@ -77,21 +93,18 @@
 =            Banner            =
 =============================-->
 
-  <section class="banner bg-banner-one">
+  <div class="banner bg-banner-one " id="messege">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-    
-          <div class="block">
-         
-            <h1>Thank you </h1>
-            <h2>For Your Registration!</h2>
-           
+          <div class="block mt-md-5">
+            <h1 class="h1">Thank you </h1>
+            <h2 class="h2">For Your Registration!</h2>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
 
   <!-- Subfooter -->
